@@ -27,6 +27,13 @@ location struct
 	w DWORD ?
 	h DWORD ?
 location ends
+;
+ECOORD struct
+	remainNum DWORD ?
+	x DWORD ?
+	y DWORD ?
+	curtype DWORD ?
+ECOORD ends
 Include windows.inc
 Include user32.inc
 Include kernel32.inc
